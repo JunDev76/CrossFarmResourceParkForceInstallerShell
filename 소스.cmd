@@ -1,3 +1,6 @@
+rem 왜 한국어로 소스.cmd 라고 해놓은건지 정말 이해가 안됩니다. 2021...
+rem                     - 2022 -
+
 ::[Bat To Exe Converter]
 ::
 ::YAwzoRdxOk+EWAjk
@@ -35,7 +38,7 @@
 
 chcp 65001
 
-title ?�로?�팜 리소?�팩 ?�동 ?�스?�러
+title ?¬ë¡œ?¤íŒœ ë¦¬ì†Œ?¤íŒ© ?˜ë™ ?¸ìŠ¤?¨ëŸ¬
 
 set custom_time="%date%"
 
@@ -44,5 +47,5 @@ curl -A "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64)" -L "https://
 del /s /q "C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalCache\minecraftpe\packcache\resource\crsinstaller_%custom_time%"
 powershell "Expand-Archive '%temp%\crossfarm_installer_resource_%custom_time%.zip' 'C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalCache\minecraftpe\packcache\resource\crsinstaller_%custom_time%'"
 
-start "" "minecraft://?addExternalServer=§a§l?�로?�팜|crsbe.kr:19132"
+start "" "minecraft://?addExternalServer=Â§aÂ§l?¬ë¡œ?¤íŒœ|crsbe.kr:19132"
 start https://www.crsbe.kr/installer_resourcepack?resource_installer
